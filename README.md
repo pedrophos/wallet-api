@@ -12,6 +12,7 @@ Este projeto é um serviço de gerenciamento de usuários construído com [NestJ
 - TypeScript
 
 ## 📁 Estrutura do Projeto
+```plaintext
 src/
 ├── config/ # Serviços de configuração (ex: PrismaService)
 ├── users/ # Módulo de usuários
@@ -22,6 +23,7 @@ src/
 │ └── user.service.spec.ts # Testes unitários
 ├── app.module.ts
 
+```
 
 ## 🚀 Instalação e execução
 
