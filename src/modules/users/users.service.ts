@@ -48,6 +48,7 @@ export class UsersService {
         id: true,
         name: true,
         email: true,
+        password: true,
         createdAt: true,
       },
     });

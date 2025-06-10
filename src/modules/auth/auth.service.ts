@@ -11,8 +11,11 @@ export class AuthService {
   ) {}
 
   async validateUser(email: string, password: string) {
+    if (!email || !password) {
+      throw new UnauthorizedException('Email and password are required');
+    }
     const user = await this.prisma.user.findUnique({ where: { email } });
-
+    
     if (!user || !(await bcrypt.compare(password, user.password))) {
       throw new UnauthorizedException('Invalid credentials');
     }

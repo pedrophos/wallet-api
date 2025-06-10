@@ -76,7 +76,8 @@ it('should find user by email', async () => {
     select: {
       id: true,
       name: true,
-      email: true,      
+      email: true,
+      password: true,
       createdAt: true,
     },
   });
