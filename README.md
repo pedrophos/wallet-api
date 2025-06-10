@@ -36,6 +36,9 @@ cd seu-projeto
 # Instale as dependências
 npm install
 
+# Inicie o containet do Docker
+docker compose up -d
+
 # Configure o Prisma
 npx prisma init
 
