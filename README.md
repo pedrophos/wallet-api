@@ -9,7 +9,8 @@ Este projeto é um serviço de gerenciamento de usuários construído com [NestJ
 - [PostgreSQL](https://www.postgresql.org/)
 - [Jest](https://jestjs.io/)
 - [bcryptjs](https://www.npmjs.com/package/bcryptjs)
-- TypeScript
+- [Docker](https://www.docker.com/)
+- [TypeScript](https://www.typescriptlang.org)
 
 ## 📁 Estrutura do Projeto
 ```plaintext
