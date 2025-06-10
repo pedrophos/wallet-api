@@ -34,22 +34,34 @@ git clone https://github.com/seu-usuario/seu-projeto.git
 cd seu-projeto
 
 # Instale as dependências
+```bash
 npm install
+```
 
 # Inicie o containet do Docker
-docker compose up -d
+```bash
+docker-compose up -d
+```
 
 # Configure o Prisma
+```bash
 npx prisma init
+```
 
 # Crie o schema do banco (ajuste o arquivo .env com sua URL do Postgres)
+```bash
 npx prisma migrate dev --name init
+```
 
 # Execute a aplicação
+```bash
 npm run start:dev
+```
 
 # Execute os testes com Jest
+```bash
 npm run test
+```
 
 🔒 Segurança
 As senhas são armazenadas com hash via bcryptjs
