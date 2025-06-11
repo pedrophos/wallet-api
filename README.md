@@ -30,7 +30,7 @@ src/
 
 
 # Clone o projeto
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/pedrophos/wallet-api
 cd seu-projeto
 
 # Instale as dependências
